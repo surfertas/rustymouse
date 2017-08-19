@@ -1,0 +1,19 @@
+[package]
+name = "rustymouse"
+version = "0.1.0"
+authors = ["surfertas <tasuku@gmail.com>"]
+build = true
+
+[dependencies]
+rosrust = "0.5.0"
+serde = "1.0.2"
+serde_derive = "1.0.2"
+env_logger = "0.4.2"
+
+
+[[bin]]
+name = "vel_publisher"
+path = "src/vel_publisher.rs"
+
+[build-dependencies]
+rosrust = "0.5.0"
