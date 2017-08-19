@@ -1,6 +1,9 @@
 Teleop example written in Rust for the raspimouse developed by RT Corporation
 ---
 
+This package was originally inspired by Takashi Ogura package found
+[here](https://github.com/OTL/rosrust_tutorial)
+
 First follow the instructions [here](https://github.com/rt-net/raspimouse_sim)
 to get the packages that will enable to you simulate the raspimouse in Gazebo.
 
