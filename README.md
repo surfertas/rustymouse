@@ -13,7 +13,7 @@ First clone the project:
 $ git clone https://github.com/surfertas/rustymouse.git
 ```
 
-The build the project:
+Then build the project:
 
 ```
 $ cargo build
